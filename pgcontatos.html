@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contatos Moto Log App</title>
+</head>
+<body>
+    <header class="header-contato" >
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img class="logo" src="img/logo-univassouras.svg" alt="">
+                    <h2>Moto Log</h2>
+                </a>
+
+                <ul class="ul">
+                    <a class="nav-links" href="index.html">Home</a>
+                    <a class="nav-links" href="pgsobre.html">Sobre</a>
+                    <a class="nav-links" href="pgservicos.html">Serviços</a>
+                    <a class="btn-contato" href="pgcontatos.html">Contato</a>
+
+                    <div class="close-icon" onclick="closeMenu()">
+                        <img src="img/close-icon.svg" alt="">
+                    </div>
+                </ul>
+
+                <div class="menu-icon" onclick="openMenu()"> 
+                    <img src="img/menu-icon.svg" alt="Icone de Menu">
+                </div>
+
+            </nav>
+
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Moto Log App</h1>
+                    <p>Entre em contato conosco logo abaixo!</p>
+                </div>
+            </section>
+        </div>
+    </header>
+
+<div class="contato">
+    <div class="container">
+   <div class="contato-info">
+    <div class="left-side">
+        <div>
+        <i class="fa-solid fa-location-dot"></i>
+        <p>Av. Expedicionário Oswaldo de Almeida Ramos,
+             nº 280, Centro - Vassouras/RJ, CEP: 27700-000</p>
+    </div>
+    <div>
+        <i class="fa-solid fa-envelope"></i>
+        <p>motolog@gmail.com.br</p>
+    </div>
+    <div>
+        <i class="fa-solid fa-phone"></i>
+        <p>(22)98280-2728</p>
+    </div>
+    </div>
+    <div class="right-side">
+        <form action="">
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Assunto" required>
+            <input type="text" placeholder="Telefone" required>
+            <textarea placeholder="Digite sua mensagem" cols="30" rows="10" required></textarea>
+            <button class="btn-contato">Enviar mensagem</button>
+        </form>
+    </div>
+   </div>
+</div>
+</div>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-contacts">
+            <h1>Moto Log App</h1>
+            <p>Redes Sociais</p>
+            <div class="footer-social-media">
+                <a href="#" class="footer-link" id="linkedin">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="#" class="footer-link" id="github">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#" class="footer-link" id="instagram">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a href="#" class="footer-link" id="facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-list">
+            <li><h3>Produtos</h3></li>
+            <li><a href="" class="footer-link">Desktop</a></li>
+            <li><a href="" class="footer-link">Mobile</a></li>
+        </div>
+
+        <div class="footer-contato">
+            <h3>Contato</h3>
+                <span>Av. Expedicionário Oswaldo de Almeida Ramos, nº 280, Centro - Vassouras/RJ, CEP: 27700-000</span>
+            
+                <a href="#">
+                    <i class="fa-solid fa-phone"></i>
+                    Fale conosco
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Como Chegar
+                </a>
+            
+        </div>
+
+        <div class="footer-copyright"></div>
+    </div>
+</footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

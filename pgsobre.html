@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sobre Moto Log App</title>
+</head>
+<body>
+    <header class="header-sobre" style="background-image: url(img/bg-sobre.jpg);">
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img class="logo" src="img/logo-univassouras.svg" alt="">
+                    <h2>Moto Log</h2>
+                </a>
+
+                <ul class="ul">
+                    <a class="nav-links" href="index.html">Home</a>
+                    <a class="nav-links" href="pgsobre.html">Sobre</a>
+                    <a class="nav-links" href="pgservicos.html">Serviços</a>
+                    <a class="btn-contato" href="pgcontatos.html">Contato</a>
+
+                    <div class="close-icon" onclick="closeMenu()">
+                        <img src="img/close-icon.svg" alt="">
+                    </div>
+                </ul>
+
+                <div class="menu-icon" onclick="openMenu()"> 
+                    <img src="img/menu-icon.svg" alt="Icone de Menu">
+                </div>
+
+            </nav>
+
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Sobre o Moto Log App</h1>
+                    <p>O seu aplicativo de entregas inovador!</p>
+                    <a href="pgcontatos.html" id="btn-contato" class="btn-contato">Entrar em contato</a>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <section class="sobre">
+        <div class="container">
+            <div class="sobre-text">
+            <h3>O Moto Log App</h3>
+            <p>O Moto Log é um aplicativo de delivery que permite que 
+                usuários encontrem entregadores próximos e realizem entregas 
+                de forma rápida e eficiente. Com o Moto Log, entregadores 
+                também podem gerenciar suas entregas e ganhos de maneira 
+                simples e prática. Experimente o Moto Log e transforme sua 
+                experiência de delivery! Entre em contato para saber mais.
+            </p>
+            <a href="pgcontatos.html" class="btn-contato">Entrar em contato</a>
+            </div>
+            <div class="sobre-img">
+                <img src="img/img-app2.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre">
+        <div class="container">
+            <div class="sobre-text">
+            <h3>Inovação</h3>
+            <p>O Moto Log traz inovação ao mercado de entregas ao 
+                oferecer uma plataforma especializada para os entregadores!
+            </p>
+            <a href="pgcontatos.html" class="btn-contato">Entrar em contato</a>
+            </div>
+            <div class="sobre-img">
+                <img src="img/img-entregador.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="servicos">
+        <div class="container">
+            <h3>Com a Moto Log você tem...</h3>
+            <p></p>
+            <div class="row-cards">
+                <div class="row-card-item">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <p class="nome-servico"><strong>Entrega rápida!</strong></p>
+                    <p class="descricao-servico">
+                        Com o Moto Log, a entrega é realizada de forma rápida e eficiente.
+                    </p>
+                </div>
+
+                <div class="row-card-item">
+                    <i class="fa-solid fa-globe"></i>
+                    <p class="nome-servico"><strong>Flexibilidade!</strong></p>
+                    <p class="descricao-servico">
+                        Com a plataforma, é possível realizar entregas tanto para empresas quanto para pessoas físicas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="criadores">
+        <div class="container">
+            <h3>Elenco do projeto</h3>
+            
+            <div class="cards">
+                <div class="card-item">
+                    <img src="img/perfil-Rosaria.jpg" alt="golfinho">
+                    <p class="user-name">Rosaria Morais</p>
+                    <p class="user-description">Lorem, ipsum dolor.</p>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/perfil-Auro.png" alt="">
+                    <p class="user-name">Auro Garcia</p>
+                    <p class="user-description">Lorem, ipsum dolor. </p>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/fotoPerfil.jpg" alt="">
+                    <p class="user-name">João Oliveira</p>
+                    <p class="user-description">Lorem, ipsum dolor.</p>
+                </div>
+                <div class="card-item">
+                    <img src="img/perfil-Diego.jpg" alt="">
+                    <p class="user-name">Diego Coiote</p>
+                    <p class="user-description">Lorem, ipsum dolor.</p>
+                </div>
+                <div class="card-item">
+                    <img src="img/perfil-Vitor.jpg" alt="">
+                    <p class="user-name">Vitor Hugo</p>
+                    <p class="user-description">Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-contacts">
+                <h1>Moto Log App</h1>
+                <p>Redes Sociais</p>
+                <div class="footer-social-media">
+                    <a href="#" class="footer-link" id="linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="github">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="footer-list">
+                <li><h3>Produtos</h3></li>
+                <li><a href="" class="footer-link">Desktop</a></li>
+                <li><a href="" class="footer-link">Mobile</a></li>
+            </div>
+    
+            <div class="footer-contato">
+                <h3>Contato</h3>
+                    <span>Av. Expedicionário Oswaldo de Almeida Ramos, nº 280, Centro - Vassouras/RJ, CEP: 27700-000</span>
+                
+                    <a href="#">
+                        <i class="fa-solid fa-phone"></i>
+                        Fale conosco
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Como Chegar
+                    </a>
+                
+            </div>
+    
+            <div class="footer-copyright"></div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
